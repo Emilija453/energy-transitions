@@ -48,8 +48,8 @@ Visualizes electricity imports and critical mineral trade data, offering insight
 
 ---
 
-### Energy Model Analysis
-Utilizes Random Forest Regression to predict total demand for critical minerals, evaluating model performance and predictions.
+### Machine Learning Model
+Utilizes Random Forest Regression to predict total demand for critical minerals in comparison to the International Energy Agencie's Global Energy and Climate Model.
 - **Predicted vs Real Total Demand**: Compares predicted and real demands.
 - **Error Analysis**: Plots residuals for error analysis.
 - **Test Size Sensitivity Analysis**: Examines model performance sensitivity.
@@ -57,9 +57,10 @@ Utilizes Random Forest Regression to predict total demand for critical minerals,
 
 **Scenarios**:
 - **The Stated Policies Scenario** serves as a benchmark to evaluate current energy and climate policies' achievements and limitations, emphasizing the "implementation gap" between current policies and announced decarbonization targets.
-- ******The Announced Pledges Scenario**** assesses current climate commitments' contribution to limiting global warming to 1.5 °C, highlighting the "ambition gap" between current pledges and the Paris Agreement's level of ambition.
+- **The Announced Pledges Scenario** assesses current climate commitments' contribution to limiting global warming to 1.5 °C, highlighting the "ambition gap" between current pledges and the Paris Agreement's level of ambition.
 - **The Net Zero Emissions by 2050 Scenario** outlines a pathway for achieving global net zero CO2 emissions by 2050, emphasizing universal access to electricity and clean cooking by 2030.
 
+#### Data Source: [International Energy Agency](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer)
 
 
 
