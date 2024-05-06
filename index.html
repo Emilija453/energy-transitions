@@ -8,8 +8,8 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
-    <link href="cover.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/cover.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
@@ -118,7 +118,7 @@
       // Function to load content
       const loadCityContent = () => {
           const selectedCity = document.getElementById('citySelector').value;
-          const url = 'cities/' + selectedCity + '.html';
+          const url = 'assets/html/' + selectedCity + '.html';
 
           fetch(url)
               .then(response => response.text())
@@ -300,9 +300,25 @@
     </script>
 
 </div>
+<div class="container">
+  <footer class="footer-dark d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0">2024 Emilija Žebrauskaitė</span>
+    </div>
 
-
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <a href="https://github.com/Emilija453/energy_transitions">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path fill="#fff" d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.208 11.387.6.11.822-.258.822-.577 0-.285-.01-1.038-.015-2.035-3.338.724-4.042-1.467-4.042-1.467-.546-1.386-1.333-1.756-1.333-1.756-1.088-.743.082-.728.082-.728 1.205.085 1.838 1.237 1.838 1.237 1.07 1.835 2.808 1.305 3.492.998.108-.775.417-1.305.76-1.605-2.665-.302-5.466-1.332-5.466-5.93 0-1.31.468-2.383 1.236-3.224-.124-.303-.536-1.527.117-3.18 0 0 1.01-.322 3.3 1.233.957-.267 1.982-.399 3.003-.403 1.02.004 2.045.136 3.004.403 2.287-1.555 3.296-1.233 3.296-1.233.657 1.653.242 2.877.118 3.18.77.84 1.234 1.913 1.234 3.224 0 4.608-2.805 5.624-5.478 5.92.43.372.817 1.103.817 2.22 0 1.605-.015 2.898-.015 3.289 0 .32.216.694.828.576C20.566 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12"></path>
+      </svg>
+    </a>      
+    </ul>
+  </footer>
 </div>
+
 
 
 <!-- JS for minerals -->
