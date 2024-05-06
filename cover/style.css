@@ -6,7 +6,37 @@
     padding-right: 110px;
     margin-top: -20px;
     margin-bottom: -20px;
-    margin-left: -80px;
-    margin-right: -80px;
+    margin-left: -150px;
+    margin-right: -150px;
 }
 
+#baltic-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+#global-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    position: relative;
+}
+
+#model-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    margin-top: 20px;
+}
+
+.col-md-6-minerals{
+    width: 150px; 
+    position: absolute; 
+    z-index: 1; 
+    grid-column: 2; 
+    grid-row: 2; 
+    align-self: end; 
+    justify-self: end;
+    padding: 10px;
+}
