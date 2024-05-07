@@ -61,7 +61,3 @@ Utilizes Random Forest Regression to predict total demand for critical minerals 
 - **The Net Zero Emissions by 2050 Scenario** outlines a pathway for achieving global net zero CO2 emissions by 2050, emphasizing universal access to electricity and clean cooking by 2030.
 
 #### Data Source: [International Energy Agency](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer)
-
-
-
-#### Data Source: [International Energy Agency](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer)
