@@ -47,3 +47,27 @@
     justify-self: end;
     padding: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .city-container.active {
+        grid-template-columns: 1fr; 
+    }
+    
+    #baltic-container,
+    #global-container,
+    #model-container {
+        grid-template-columns: 1fr; 
+    }
+    
+    .col-md-6-minerals {
+        position: static; 
+        z-index: auto; 
+        grid-column: auto; 
+        grid-row: auto; 
+        align-self: auto; 
+        justify-self: auto;
+        margin-top: 0; 
+        width: auto; 
+    }
+}
