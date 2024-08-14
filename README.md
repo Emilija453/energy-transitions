@@ -12,6 +12,21 @@ The project data undergoes analysis in Jupyter Notebooks, where it's processed, 
 - **Insight Generation**: Insights into energy consumption, production, and transition trends are derived through statistical analysis and data visualization techniques.
   
 - **HTML Output**: The processed data and visualizations are rendered into HTML documents, allowing for easy viewing and interaction by users.
+
+## Distinctiveness and Complexity
+
+- **Interactive Data Visualization**: The project uses Plotly.js to create dynamic and interactive visualizations, which distinguishes it from simpler static presentations and adds a layer of technical sophistication.
+- **Full-Stack Web Development**: The combination of Django for backend development with HTML and Bootstrap for the frontend involves both development and deployment challenges, showcasing a broad range of skills.
+- **Regional Focus with Global Perspective**: By focusing on energy transitions in Lithuania and the Baltic region while also providing a global context, the project offers a unique blend of local and international insights.
+- **Django Web Application**: Incorporating a Django-based newsletter subscription system adds an interactive user engagement component, demonstrating practical web development skills and enhancing user interaction.
+
+## Django Integration: Newsletter Subscription
+To engage with the audience interested in energy transitions, this project includes a Django-based newsletter subscription feature. Users can subscribe to an "Energy Newsletter" to receive updates on the project's progress and insights.
+
+### Django Project Overview
+Newsletter Subscription Model: A simple model to store subscriber information (name and email) is created using Django.
+
+Form Handling: Users can input their details through a form that is processed and saved to the database.
   
 ## Content
 ### Vilnius, Klaipeda and Panevezys Energy Analysis
